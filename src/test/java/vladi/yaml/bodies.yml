@@ -1,0 +1,12 @@
+  - body:
+    id: 0
+    mass: 10.0
+    shape:
+      type: "circle"
+      radius: 30.0
+    movementLaw: 
+      movementLawX: "x"
+      movementLawY: "10 * sin(x)"
+      position0:
+        x0: 2.0 
+        y0: 0.0
